@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+  
+  .title{
+    text-align: center;
+    font-size: 70px;
+    margin : 55px;
+    font-family: 'Honk', system-ui;
+  }
+
+  .wrapper{
+    position:relative;
+    width: 850px;
+    margin:0 auto;
+    height: 2330px;
+    overflow:hidden;
+  }
+
+  .slide{
+    flex-direction: row;
+    justify-content:end;
+    height : 440px;
+    /* border : 1px solid red; */
+    position: relative;
+  }
+
+  .slide ul {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .slide li {
+    display: inline-block;
+    margin-right: 60px;
+    width: 230px;
+    height: 360px;
+  }
+
+  /* slide */
+
+  /* li 안 */
+  li {
+    list-style-type: none;
+    float:left;
+  }
+
+  img {
+    width : 230px;
+    height : 300px;
+  }
+
+  .name{
+    text-align: center;
+    font-size: 15px;
+    font-weight:1900; /*이거 why?*/
+  }
+
+  /* li 안 */
+
+  .firstY, .secondY, .thirdY, .forthY, .etc{
+    width : 1900px;
+    height: 300px;
+    padding : 20px 0px 50px 20px;
+    margin: 0 auto;
+    border-top : 5px solid black;
+    position:absolute;
+    bottom:30px;
+  }
+
+  #firstBk, #secondBk, #thirdBk, #forthBk, #etcBk{
+    position: absolute;
+    top:0;
+    font-size:20px;  
+    font-family: 'Honk', system-ui;
+  }
+
+  .arrow1, .arrow2 {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 200px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  z-index: 10;
+  }
+  /* slide 안 */
+
+#prev1, #prev2, #prev3, #prev4, #prev5 {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent rgba(119, 117, 117, 0.332) transparent transparent;
+  left: 0;
+  margin-left: 20px;
+}
+
+#next1, #next2, #next3, #next4, #next5  {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent rgba(119, 117, 117, 0.332);
+  right: 0;
+  margin-right: 20px;
+}
