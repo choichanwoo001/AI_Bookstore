@@ -11,9 +11,7 @@
 
 | 시작 페이지 |
 |:---:|
-![책방](https://github.com/user-attachments/assets/cefbd3a0-9dce-4add-a776-5c5fcafb6b8c)   
-
-
+|![책방](https://github.com/user-attachments/assets/83400e76-0f2e-4325-b9f7-dccf3add45c1)|
 |1, 2, 3, 4, 기타 섹션으로 구성되어 있습니다.|
 
 ---
@@ -22,7 +20,7 @@
 
 | 책 정보 페이지 |
 |:---:|
-![스크린샷 2024-11-15 000024](https://github.com/user-attachments/assets/604215b2-381d-4fd7-a8a6-15c18e8fb65c)
+|![스크린샷 2024-11-15 000024](https://github.com/user-attachments/assets/8800ca3d-045d-4c9d-bbd2-b0438361a103)|
 |구매에 필요한 필수적인 정보들이 포함되어 있습니다.|
 
 ---
